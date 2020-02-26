@@ -23,6 +23,7 @@ def getAnswer(answerNumber):
 
 
 r = random.randint(1, 9)  # pick a number between 1 and 9
+# 1 is low end and 9 is high end
 fortune = getAnswer(r)
 print(fortune)
 
