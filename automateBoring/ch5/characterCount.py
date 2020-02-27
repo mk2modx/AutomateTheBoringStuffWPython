@@ -1,3 +1,6 @@
+import pprint
+
+# pprint cleaner print display
 message = 'It was a bright cold day in April, and the clocks were striking thirteen.'
 count = {}
 
@@ -6,4 +9,4 @@ for character in message:
     count[character] = count[character] + 1
     # count gets incremented everytime the key is found
 
-print(count)
+pprint.pprint(count)
